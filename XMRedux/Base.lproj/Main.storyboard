@@ -1,24 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vTd-fJ-FpG">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Navigation Controller-->
+        <scene sceneID="a8a-n1-kLM">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <navigationController id="vTd-fJ-FpG" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fCR-MO-vVK">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="fDa-JX-SbS" kind="relationship" relationship="rootViewController" id="cPW-dh-cgq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wBS-3G-BnT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1287" y="-209"/>
+        </scene>
+        <!--Table-->
+        <scene sceneID="ZJ6-dA-YNm">
+            <objects>
+                <viewController title="Table" id="fDa-JX-SbS" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5IL-GX-ijb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="hNv-U8-ue6"/>
                     </view>
+                    <navigationItem key="navigationItem" id="c6P-HD-lbD">
+                        <leftBarButtonItems>
+                            <barButtonItem title="Add" id="ETy-N8-2CE">
+                                <connections>
+                                    <action selector="addItem:" destination="fDa-JX-SbS" id="Zkp-WP-AHv"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Del" id="zR7-m9-21r">
+                                <connections>
+                                    <action selector="delItem:" destination="fDa-JX-SbS" id="yHh-qF-WJq"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Change" id="mFj-Zz-xgz">
+                                <connections>
+                                    <action selector="changeItem:" destination="fDa-JX-SbS" id="0Uz-jh-hkr"/>
+                                </connections>
+                            </barButtonItem>
+                        </leftBarButtonItems>
+                        <rightBarButtonItems>
+                            <barButtonItem title="ChangeColor" id="fMZ-HH-Dxn">
+                                <connections>
+                                    <action selector="changeColor:" destination="fDa-JX-SbS" id="xYY-eM-sy3"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Reload" id="rIL-Rx-5lR">
+                                <connections>
+                                    <action selector="reload:" destination="fDa-JX-SbS" id="634-O0-K0G"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a11-2U-Xf6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-524" y="-209"/>
         </scene>
     </scenes>
 </document>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C6121062113F0E40040A37C /* TableviewDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6121052113F0E40040A37C /* TableviewDatasource.m */; };
+		2C6121092113F2970040A37C /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6121082113F2970040A37C /* ViewModel.m */; };
+		2C61214C21146FDA0040A37C /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C61214B21146FDA0040A37C /* TableViewCell.m */; };
 		2C7C1E42210BF61700F73B6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C1E41210BF61700F73B6C /* AppDelegate.m */; };
 		2C7C1E45210BF61700F73B6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C1E44210BF61700F73B6C /* ViewController.m */; };
 		2C7C1E48210BF61700F73B6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7C1E46210BF61700F73B6C /* Main.storyboard */; };
@@ -15,6 +18,12 @@
 		2C7C1E50210BF61800F73B6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C1E4F210BF61800F73B6C /* main.m */; };
 		2C7C1E5A210BF61900F73B6C /* XMReduxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C1E59210BF61900F73B6C /* XMReduxTests.m */; };
 		2C7C1E65210BF61900F73B6C /* XMReduxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C1E64210BF61900F73B6C /* XMReduxUITests.m */; };
+		2C7C1E74210BF6AE00F73B6C /* XMStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C1E73210BF6AE00F73B6C /* XMStore.m */; };
+		2C7C1E7B210BF6DF00F73B6C /* XMState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C1E7A210BF6DF00F73B6C /* XMState.m */; };
+		2C7C1E7E210BF6E600F73B6C /* XMAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C1E7D210BF6E600F73B6C /* XMAction.m */; };
+		2C7C1E81210BF6F600F73B6C /* XMReducers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C1E80210BF6F600F73B6C /* XMReducers.m */; };
+		2C7C1E88210BFE1400F73B6C /* XMToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C1E87210BFE1400F73B6C /* XMToDoItem.m */; };
+		D69CBEAAF623D514C879AA17 /* libPods-XMRedux.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AED73F530AEC3F72F21DF048 /* libPods-XMRedux.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		091A9AC32BA0FBC71C17438F /* Pods-XMRedux.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMRedux.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMRedux/Pods-XMRedux.debug.xcconfig"; sourceTree = "<group>"; };
+		2C6121042113F0E40040A37C /* TableviewDatasource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableviewDatasource.h; sourceTree = "<group>"; };
+		2C6121052113F0E40040A37C /* TableviewDatasource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableviewDatasource.m; sourceTree = "<group>"; };
+		2C6121072113F2970040A37C /* ViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		2C6121082113F2970040A37C /* ViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		2C61214A21146FDA0040A37C /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		2C61214B21146FDA0040A37C /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		2C7C1E3D210BF61700F73B6C /* XMRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7C1E40210BF61700F73B6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C7C1E41210BF61700F73B6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +67,20 @@
 		2C7C1E60210BF61900F73B6C /* XMReduxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMReduxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7C1E64210BF61900F73B6C /* XMReduxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMReduxUITests.m; sourceTree = "<group>"; };
 		2C7C1E66210BF61900F73B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C7C1E72210BF6AE00F73B6C /* XMStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMStore.h; sourceTree = "<group>"; };
+		2C7C1E73210BF6AE00F73B6C /* XMStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMStore.m; sourceTree = "<group>"; };
+		2C7C1E79210BF6DF00F73B6C /* XMState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMState.h; sourceTree = "<group>"; };
+		2C7C1E7A210BF6DF00F73B6C /* XMState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMState.m; sourceTree = "<group>"; };
+		2C7C1E7C210BF6E600F73B6C /* XMAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMAction.h; sourceTree = "<group>"; };
+		2C7C1E7D210BF6E600F73B6C /* XMAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMAction.m; sourceTree = "<group>"; };
+		2C7C1E7F210BF6F600F73B6C /* XMReducers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMReducers.h; sourceTree = "<group>"; };
+		2C7C1E80210BF6F600F73B6C /* XMReducers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMReducers.m; sourceTree = "<group>"; };
+		2C7C1E82210BF96E00F73B6C /* XMActionType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMActionType.h; sourceTree = "<group>"; };
+		2C7C1E86210BFE1400F73B6C /* XMToDoItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMToDoItem.h; sourceTree = "<group>"; };
+		2C7C1E87210BFE1400F73B6C /* XMToDoItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMToDoItem.m; sourceTree = "<group>"; };
+		2C7C1E89210C0D5C00F73B6C /* XMRedux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMRedux.h; sourceTree = "<group>"; };
+		AED73F530AEC3F72F21DF048 /* libPods-XMRedux.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XMRedux.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02DE1B97E61DAAE614C3B0D /* Pods-XMRedux.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMRedux.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMRedux/Pods-XMRedux.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D69CBEAAF623D514C879AA17 /* libPods-XMRedux.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +109,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		290271E0B7B5864302E40A6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				091A9AC32BA0FBC71C17438F /* Pods-XMRedux.debug.xcconfig */,
+				E02DE1B97E61DAAE614C3B0D /* Pods-XMRedux.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2C26A4F121154492001575DA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2C6121072113F2970040A37C /* ViewModel.h */,
+				2C6121082113F2970040A37C /* ViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2C26A4F521155484001575DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C61214A21146FDA0040A37C /* TableViewCell.h */,
+				2C61214B21146FDA0040A37C /* TableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		2C7C1E34210BF61700F73B6C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +143,8 @@
 				2C7C1E58210BF61900F73B6C /* XMReduxTests */,
 				2C7C1E63210BF61900F73B6C /* XMReduxUITests */,
 				2C7C1E3E210BF61700F73B6C /* Products */,
+				290271E0B7B5864302E40A6C /* Pods */,
+				678F3A9C4BC087BD3437424B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +165,12 @@
 				2C7C1E41210BF61700F73B6C /* AppDelegate.m */,
 				2C7C1E43210BF61700F73B6C /* ViewController.h */,
 				2C7C1E44210BF61700F73B6C /* ViewController.m */,
+				2C6121042113F0E40040A37C /* TableviewDatasource.h */,
+				2C6121052113F0E40040A37C /* TableviewDatasource.m */,
+				2C7C1E85210BFDFE00F73B6C /* Model */,
+				2C26A4F521155484001575DA /* View */,
+				2C26A4F121154492001575DA /* ViewModel */,
+				2C7C1E8A210C0D5F00F73B6C /* Redux */,
 				2C7C1E46210BF61700F73B6C /* Main.storyboard */,
 				2C7C1E49210BF61800F73B6C /* Assets.xcassets */,
 				2C7C1E4B210BF61800F73B6C /* LaunchScreen.storyboard */,
@@ -132,6 +198,72 @@
 			path = XMReduxUITests;
 			sourceTree = "<group>";
 		};
+		2C7C1E75210BF6B200F73B6C /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				2C7C1E72210BF6AE00F73B6C /* XMStore.h */,
+				2C7C1E73210BF6AE00F73B6C /* XMStore.m */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		2C7C1E76210BF6BA00F73B6C /* State */ = {
+			isa = PBXGroup;
+			children = (
+				2C7C1E79210BF6DF00F73B6C /* XMState.h */,
+				2C7C1E7A210BF6DF00F73B6C /* XMState.m */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		2C7C1E77210BF6C000F73B6C /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				2C7C1E82210BF96E00F73B6C /* XMActionType.h */,
+				2C7C1E7C210BF6E600F73B6C /* XMAction.h */,
+				2C7C1E7D210BF6E600F73B6C /* XMAction.m */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		2C7C1E78210BF6C700F73B6C /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				2C7C1E7F210BF6F600F73B6C /* XMReducers.h */,
+				2C7C1E80210BF6F600F73B6C /* XMReducers.m */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		2C7C1E85210BFDFE00F73B6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C7C1E86210BFE1400F73B6C /* XMToDoItem.h */,
+				2C7C1E87210BFE1400F73B6C /* XMToDoItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C7C1E8A210C0D5F00F73B6C /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				2C7C1E89210C0D5C00F73B6C /* XMRedux.h */,
+				2C7C1E78210BF6C700F73B6C /* Reducers */,
+				2C7C1E77210BF6C000F73B6C /* Action */,
+				2C7C1E76210BF6BA00F73B6C /* State */,
+				2C7C1E75210BF6B200F73B6C /* Store */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
+		678F3A9C4BC087BD3437424B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AED73F530AEC3F72F21DF048 /* libPods-XMRedux.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C7C1E69210BF61900F73B6C /* Build configuration list for PBXNativeTarget "XMRedux" */;
 			buildPhases = (
+				F1738415FD02DA7537A5698F /* [CP] Check Pods Manifest.lock */,
 				2C7C1E39210BF61700F73B6C /* Sources */,
 				2C7C1E3A210BF61700F73B6C /* Frameworks */,
 				2C7C1E3B210BF61700F73B6C /* Resources */,
@@ -257,14 +390,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F1738415FD02DA7537A5698F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XMRedux-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C7C1E39210BF61700F73B6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C6121062113F0E40040A37C /* TableviewDatasource.m in Sources */,
 				2C7C1E45210BF61700F73B6C /* ViewController.m in Sources */,
+				2C6121092113F2970040A37C /* ViewModel.m in Sources */,
+				2C7C1E88210BFE1400F73B6C /* XMToDoItem.m in Sources */,
 				2C7C1E50210BF61800F73B6C /* main.m in Sources */,
+				2C7C1E7E210BF6E600F73B6C /* XMAction.m in Sources */,
+				2C7C1E74210BF6AE00F73B6C /* XMStore.m in Sources */,
+				2C7C1E81210BF6F600F73B6C /* XMReducers.m in Sources */,
 				2C7C1E42210BF61700F73B6C /* AppDelegate.m in Sources */,
+				2C61214C21146FDA0040A37C /* TableViewCell.m in Sources */,
+				2C7C1E7B210BF6DF00F73B6C /* XMState.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,10 +593,13 @@
 		};
 		2C7C1E6A210BF61900F73B6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 091A9AC32BA0FBC71C17438F /* Pods-XMRedux.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H298JL829;
 				INFOPLIST_FILE = XMRedux/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,10 +612,13 @@
 		};
 		2C7C1E6B210BF61900F73B6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02DE1B97E61DAAE614C3B0D /* Pods-XMRedux.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H298JL829;
 				INFOPLIST_FILE = XMRedux/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
